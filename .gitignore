@@ -1,5 +1,6 @@
 _site
 _draft_posts
+watch.sh
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
