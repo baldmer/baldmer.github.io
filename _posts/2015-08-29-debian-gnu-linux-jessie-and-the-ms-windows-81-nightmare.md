@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Debian GNU/Linux Jessie and the MS Windows 8.1 nightmare
+title: Debian GNU/Linux Jessie and MS Windows 8.1
 tags: [Debian, Linux]
 ---
 
