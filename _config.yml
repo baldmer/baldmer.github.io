@@ -160,8 +160,10 @@ date_format: "%B %-d, %Y"
 timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+#permalink: /:year-:month-:day-:title/
+permalink: /blog/:title/
+paginate: 10
+paginate_path: "/page:num/"
 
 kramdown:
   input: GFM
