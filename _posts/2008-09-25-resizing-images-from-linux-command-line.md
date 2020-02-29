@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resizing images from Linux command line
-tags: [Debian, Linux]
+tags: [Debian, Linux, Python]
 ---
 
 `Gallery.py` script does the work.
