@@ -4,7 +4,7 @@ title: Tesseract OCR C++ API, extracting text from images
 tags: [Linux, Google, C++, Data-Science, OOP]
 ---
 
-In a [previous post](/2020-01-25-compiling-tesseract-ocr-development-version-with-lstm-engine/), we compiled all the necessary libraries to setup the `Tesseract OCR C++ API`. In this post we aim to experiment with the basic capabilities of the API. We use the following code snippet:
+In a [previous post](/blog/compiling-tesseract-ocr-development-version-with-lstm-engine/), we compiled all the necessary libraries to setup the `Tesseract OCR C++ API`. In this post we aim to experiment with the basic capabilities of the API. We use the following code snippet:
 
 {% highlight cpp linenos %}
 
