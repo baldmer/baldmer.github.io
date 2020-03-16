@@ -63,8 +63,7 @@ Copyright 1997, 2007 Oracle. All Rights Reserved
 
 Once started go to connection navigator, right click on Database and select New Database Connection… to launch the Connection Wizard.
 
-- Database Connection wizard – Step 1: Specify a connection name and leave Oracle (JDBC) as connection type.
-- Database Connection wizard – Step 2: Specify user name and password for your HR schema and check Deploy Password box.
-- Database Connection wizard – Step 3: Specify connection information for the database machine. In my case the database server is hosted in the same machine I have JDeveloper installed. Type XE as System Identifier(SID).
-- Database Connection wizard – Step 4: Test connection, if got success, Поздравляю!, if not, try again.
-- 
+- Step 1: Specify a connection name and leave Oracle (JDBC) as connection type.
+- Step 2: Specify user name and password for your HR schema and check Deploy Password box.
+- Step 3: Specify connection information for the database machine. In my case the database server is hosted in the same machine I have JDeveloper installed. Type XE as System Identifier(SID).
+- Step 4: Test connection.
