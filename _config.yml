@@ -1,5 +1,7 @@
 # --- General options --- #
 
+theme: beautiful-jekyll-theme
+
 # Name of website
 title: Baldo's web log
 

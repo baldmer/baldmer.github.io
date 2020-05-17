@@ -5,3 +5,5 @@ watch.sh
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+Gemfile.lock
