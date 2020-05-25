@@ -9,7 +9,7 @@ Recently I installed the recent versions of `PHP` and `Apache2`. In this post I 
 
 #### Install Personal Package Archives PPA
 
-Here, I used the repository from ondrej.
+For the most recent version of `PHP` I used the PPA repository from ondrej.
 
 ```bash
 $ sudo add-apt-repository -y ppa:ondrej/php
