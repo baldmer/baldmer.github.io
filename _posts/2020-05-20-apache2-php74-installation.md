@@ -4,7 +4,7 @@ title: PHP 7.4 and Apache2 Installation on Ubuntu 16.04
 tags: [Linux, PHP]
 ---
 
-Recently I installed the recent versions of `PHP` and `Apache2`. In this post I will describe the steps I took to run the latest version of these tools on `Ubuntu 16.04`. I used to experiment a lot with `Linux` `Apache` `MySQL` and `PHP` (`LAMP`) configurations when I was studying my Bachelor's Degree.  The installation procedure remains very similar to the one ten years ago.
+In this post, I will describe the steps I took to run the latest version of `PHP` and `Apache2` on `Ubuntu 16.04`. I used to experiment a lot with `Linux` `Apache` `MySQL` and `PHP` (`LAMP`) configurations when I was studying my Bachelor's Degree. Even though the technologies have evolved, the installation procedure remains very similar to the one ten years ago.
 
 
 #### Install Personal Package Archives PPA
@@ -80,12 +80,6 @@ As we can see in the previous output, a minimal `Apache2` server has been instal
 
 ```bash
 sudo apt-get install apache2
-```
-
-Additionally, I will install the required packages to work with the `symfony` `PHP` framework.
-
-```bash
-$ sudo apt-get install php7.4 php7.4-cli php7.4-common php7.4-xml php7.4-mbstring php7.4-intl
 ```
 
 #### Test the installation
