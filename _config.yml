@@ -22,7 +22,7 @@ description: A collection of memories and knowledge.
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Categories: "tags"
+  Tags: "tags"
   #Resources:
    # - Beautiful Jekyll: ""
     #- Learn markdown: ""
