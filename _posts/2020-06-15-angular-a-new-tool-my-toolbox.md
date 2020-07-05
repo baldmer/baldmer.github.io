@@ -130,7 +130,7 @@ or
 $ ng g c comp-name
 ```
 
-Will generate three files: a `.css`, in my case the selected stylesheet format, a `.html` with `Angular` directives and binding markup, a `.ts` `Typescript` file with application logic, and a `.spec.ts` for testing, e.g:
+Will generate four files: a `.css`, in my case the selected stylesheet format, a `.html` with `Angular` directives and binding markup, a `.ts` `Typescript` file with application logic, and a `.spec.ts` for testing, e.g:
 
 ```bash
 $ ng generate component comp-name
