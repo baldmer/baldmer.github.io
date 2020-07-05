@@ -21,7 +21,8 @@ description: A collection of memories and knowledge.
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  Home: "./"
+  About: "aboutme"
   Tags: "tags"
   #Resources:
    # - Beautiful Jekyll: ""
@@ -32,24 +33,27 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/prof.png"
 
+
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-#title-img: "/img/prof.jpeg"
+#title-img: "/img/prof.png"
 
 # --- Background colour/image options --- #
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
 navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
+#navbar-text-col: "#404040"
+navbar-text-col: "#026579"
 navbar-children-col: "#F5F5F5"
 #page-col: "#FFFFFF"
 page-col: "#F8F8F8"
-link-col: "#008AFF"
+link-col: "#008AFF"  # links of tags
 hover-col: "#0085A1"
 footer-col: "#F5F5F5"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
+post-prev-anchor-col: "#026579"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -180,7 +184,7 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-      show-avatar: false
+      show-avatar: true
   -
     scope:
       path: "" # all files
