@@ -8,3 +8,5 @@ gem 'jekyll-paginate'
 
 gem "nokogiri", ">= 1.10.8"
 gem "beautiful-jekyll-theme", "3.0.0"
+
+gem "kramdown-parser-gfm"

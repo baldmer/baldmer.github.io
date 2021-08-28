@@ -117,12 +117,8 @@ int Hopfield::dotProduct(int *pattern, int *weights, int wLen){
 	return k;
 }
 
-/*
- f(t) = {1, if t >= theta; 0, if t < theta}
-        where theta = 0
-*/
-int Hopfield::threshold(int act){
-	if(act >= 0) return 1; else return 0;
+int Hopfield::threshold(int activation){
+	if(activation >= 0) return 1; else return 0;
 }
 
 void Hopfield::run(int *pattern){

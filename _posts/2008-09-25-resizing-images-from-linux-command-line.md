@@ -13,7 +13,7 @@ $ python gallery.py—resize 800 600 ../photos/tm 005.JPG
 Unable to import PIL.Image; is the Python Imaging Library installed?
 ```
 
-Wooops !!, it doesn’t works. I have to install Imaging Library.
+Wooops !!, it doesn’t work. I have to install an Imaging Library.
 
 Prerequisites required.
 
@@ -56,18 +56,6 @@ To solve this problem install python development libraries.
 
 ```
 # apt-get install python2.5-dev
-$ python setup.py build_ext -i
-
-PIL 1.1.6 BUILD SUMMARY
-
-version       1.1.6
-platform      linux2 2.5.2 (r252:60911, Sep  24 2008, 09:22:44)
-[GCC 4.3.1]
-
-**TKINTER support not available
-- JPEG support ok
-- ZLIB (PNG/ZIP) support ok
-- FREETYPE2 support ok
 ```
 
 To check build, run the selftest.py script. And then install.
@@ -83,7 +71,6 @@ Now, everything works like a charm.
 
 ```
 $ python gallery.py—resize 800 600 ../photos/tm 005.JPG
-./photos/tm 005.JPG: was 2848,2136; resizing to 800,600
 ```
 
 Script to resize more than one image.
@@ -97,13 +84,5 @@ done
 
  
 $ sh resize_all.sh ../photos/
-./photos/tm005.JPG: was 800,600; resizing to 800,600
-./photos/tm006.JPG: was 2136,2848; resizing to 800,600
-./photos/tm007.JPG: was 2848,2136; resizing to 800,600
-./photos/tm008.JPG: was 2848,2136; resizing to 800,600
-./photos/tm009.JPG: was 2848,2136; resizing to 800,600
-./photos/tm010.JPG: was 2848,2136; resizing to 800,600
-./photos/tm011.JPG: was 2848,2136; resizing to 800,600
-./photos/tm012.JPG: was 2848,2136; resizing to 800,600
 ```
 
