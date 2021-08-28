@@ -27,7 +27,7 @@ Project 1 Title
 Date Achieved
 November 6, 2010
 Supporting Information
-Free as in speech, not free as in beer
+(Open Source Related Topic)
 Requirement Name
 Project 2 Title
 ```
