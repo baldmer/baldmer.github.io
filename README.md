@@ -8,9 +8,3 @@ A collection of memories and knowledge.
 - [Jekyll](https://jekyllrb.com/)
 - [beautiful-jekyll](https://jekyllthemes.io/theme/beautiful-jekyll)
 
-
-
-
-
-
-
